@@ -41,6 +41,12 @@ header {
     display: flex;
 }
 
+.logo {
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
 /*Elementos de texto desplegables*/
 
 #elementos_links {

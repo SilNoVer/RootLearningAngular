@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './paginas/home/home.component';
@@ -17,6 +16,9 @@ import { RBotonesRRSSComponent } from './componentes/register/r-botones-rrss/r-b
 import { RTituloComponent } from './componentes/register/r-titulo/r-titulo.component';
 import { RFormComponent } from './componentes/register/r-form/r-form.component';
 import { RLoginButtonComponent } from './componentes/register/r-login-button/r-login-button.component';
+import { PCaractCursoComponent } from './componentes/producto/p-caract-curso/p-caract-curso.component';
+import { PCompraComponent } from './componentes/producto/p-compra/p-compra.component';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { RLoginButtonComponent } from './componentes/register/r-login-button/r-l
     RBotonesRRSSComponent,
     RTituloComponent,
     RFormComponent,
-    RLoginButtonComponent
+    RLoginButtonComponent,
+    PCaractCursoComponent,
+    PCompraComponent
   ],
   imports: [
     BrowserModule,
