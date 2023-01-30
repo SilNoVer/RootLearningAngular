@@ -12,7 +12,7 @@ import { LoginComponent } from './paginas/login/login.component';
 import { RegisterComponent } from './paginas/register/register.component';
 import { CestaComponent } from './paginas/cesta/cesta.component';
 import { BBuscadorComponent } from './componentes/busqueda/b-buscador/b-buscador.component';
-
+import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +26,7 @@ import { BBuscadorComponent } from './componentes/busqueda/b-buscador/b-buscador
     RegisterComponent,
     CestaComponent,
     BBuscadorComponent,
+    PCabeceraComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,79 @@
+#cabecera {
+    margin: 15px 5% 0 5%;
+    display: flex;
+    color: white;
+}
+
+#datos {
+    padding-top: 1rem;
+    font-size: 1.5vw;
+}
+
+#puntuacion p {
+    font-size: 25px;
+}
+
+#img_curso {
+    width: 70%;
+    min-width: 270px;
+    padding: 0;
+}
+
+#cabecera img {
+    width: 100%;
+    min-width: 250px;
+    max-width: 800px;
+    margin: 0;
+    object-fit: contain;
+}
+
+/*Código para el rating*/
+.rate {
+    float: left;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+/*Hasta aquí rating*/
+
+#profesor {
+    display: flex;
+    align-items: center;
+}
