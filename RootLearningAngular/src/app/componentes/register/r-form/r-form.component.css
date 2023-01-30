@@ -1,0 +1,12 @@
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-column-gap: 2vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+form>div {
+    width: 100%;
+}
