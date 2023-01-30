@@ -65,3 +65,39 @@ footer a {
     max-width: 50px;
     margin-right: 10px;
 }
+
+@media (max-width: 700px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #img_footer{
+        max-width: 80%;
+    }
+    #enlaces_footer{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-size: 30px;
+       width: 100%;
+    }
+
+    #redes_sociales>p{
+        display: none;
+    }
+
+    #redes_sociales{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 2vh;
+    }
+
+    #redes_sociales svg{
+        margin: 2vh 2vh ;
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
