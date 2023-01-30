@@ -13,6 +13,8 @@ import { RegisterComponent } from './paginas/register/register.component';
 import { CestaComponent } from './paginas/cesta/cesta.component';
 import { BBuscadorComponent } from './componentes/busqueda/b-buscador/b-buscador.component';
 import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera.component';
+import { PCaractCursoComponent } from './componentes/producto/p-caract-curso/p-caract-curso.component';
+import { PCompraComponent } from './componentes/producto/p-compra/p-compra.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera
     RegisterComponent,
     CestaComponent,
     BBuscadorComponent,
-    PCabeceraComponent
+    PCabeceraComponent,
+    PCaractCursoComponent,
+    PCompraComponent
   ],
   imports: [
     BrowserModule,
